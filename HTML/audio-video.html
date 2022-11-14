@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video</title>
+</head>
+<body>
+    <!-- Video Tag -->
+    <video width="500" height="300" controls loop muted poster="../Data/Poster Image.JPG">
+        <!-- source can be included in the same video tag also when only one in case we want to give many formats 
+        this is how they can be specified -->
+        <source src ="../Data/Grass Video.mp4" type="video/mp4">
+        <!-- In case the browser does not support the format this content will be shown -->
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+    <!-- Audio Tag -->
+    <audio controls>
+        <source src="../Data/Audio Sample.mp3">
+        <a href="../Data/Audio Sample.mp3">Download the Audio</a>
+        <!--  -->
+    </audio>
+</body>
+</html>
+
+<!--autoplay : automatically plays the content when the page loads
+    controls : displays the controls on the video to pause/play/seek
+    loop : keeps on playing the video on a loop
+    muted : the video when loads initially will be muted  
+    poster : Specifies the intital screen/frame before the video plays
+    for accessibility purposes always specify a caption to the video-->
