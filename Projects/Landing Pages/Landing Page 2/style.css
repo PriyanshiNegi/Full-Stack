@@ -1,0 +1,85 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+body{
+    background-image: url(assets/bg.png);
+    background-size: 100vw 100vh;
+    box-sizing: border-box;
+    font-family:"Montserrat";
+    color: #fff;
+}
+/* Navbar */
+img{
+    width: 80px;
+    height: 25px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin:17px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    background-color: #fff;
+    height:40px;
+    width: 1px;
+    position: relative;
+    right: 10%;
+}
+.grow-list{
+   color: #fff;
+   position: relative;
+   right:20%;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+
+.list-item{
+    padding-right: 50px;
+}
+
+/* Hero Alignmnet */
+.hero{
+    position: relative;
+    top:60px;
+    left:26%;
+}
+.hero-heading{
+    width:50%;
+    font-size: 63px;
+    text-align: center;
+}
+.hero-description{
+    font-size: 23px;
+    font-weight:initial;
+    position: relative;
+    bottom :45px;
+    left:8%;
+}
+/* Buttons */
+.button-small,.button-large{
+    background-color: #ba0cc5;
+    border: none;
+    color:#fff;
+    height: 30px;
+    width : 120px;
+}
+.button-small{
+    border-radius: 5px;
+    position: relative;
+    right:70%;
+}
+.button-large{
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 7px;
+    position: relative;
+    left:17%;
+}
