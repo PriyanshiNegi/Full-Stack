@@ -15,29 +15,29 @@
                 <img class="w-6 h-6"src="./Images/VS Code Logo.png" alt="VS Code Logo">
                 Visual Studio Code
             </span> 
-            <ul class="flex gap-x-5 text-[#9d9d9d] font-semibold">
-             <li>Docs</li>
-             <li>Updates</li>
-             <li>Blog</li>
-             <li>API</li>
-             <li>Extensions</li>
-             <li>FAQ</li>
-             <li>Learn</li>
+            <ul class="flex gap-x-5 text-[#9d9d9d] font-semibold ">
+             <li class="hover:text-white">Docs</li>
+             <li class="hover:text-white">Updates</li>
+             <li class="hover:text-white">Blog</li>
+             <li class="hover:text-white">API</li>
+             <li class="hover:text-white">Extensions</li>
+             <li class="hover:text-white">FAQ</li>
+             <li class="hover:text-white">Learn</li>
             </ul>
         </div>
         <div class="flex items-center">
-            <div class="flex bg-[#525257]  ">
-                <img class="w-10 h-10 relative top-1" src="Images/Search.png" alt="search option">
+            <div class="flex bg-neutral-700">
+                <img class="w-10 h-10 relative top-1" src="Images/Search.jpg" alt="search option">
                 <label for=""></label> 
-                <input class="bg-[#525257] text-white w-36 h-12" type="search" name="" id="" placeholder="Search Docs">
+                <input class="bg-neutral-700 text-white w-36 h-12 placeholder:text-gray-300 placeholder:text-[14px]" type="search" name="" id="" placeholder="Search Docs">
             </div>
-            <div class="flex items-center bg-[#0071BC]">
-                <img class="w-8 h-8 relative left-2 " src="./Images/Download.png" alt="">
-                <button class="bg-[#0071BC] pl-2 pr-4 py-3 font-semibold">Download</button>
+            <div class="flex items-center bg-[#0066b8] gap-x-2"> <!--hover:bg-[#035EA7]-->
+                <img class="w-[15px] h-[15px] relative left-3" src="./Images/Download.png" alt="">
+                <button class="bg-[#0066b8] pl-3 pr-5 py-3 font-semibold">Download</button>
             </div>
         </div>  
     </nav>
-    <p class="bg-[#25252b] py-3 flex justify-center text-[#ccc]"><a href="" class="text-[#0098ff] px-1"> Version 1.73 </a> is now available! Read about the new features and fixes from October.</p>
+    <p class="bg-[#25252b] py-3 flex justify-center text-[#ccc]"><a href="" class="text-[#0098ff] px-1 hover:underline"> Version 1.73 </a> is now available! Read about the new features and fixes from October.</p>
 
     <!-- Download Section -->
     <div class="bg-[#2c2c32] text-white flex justify-start items-center pb-[20px]">
@@ -45,19 +45,19 @@
        <div class="flex flex-col w-[40%] items-center relative bottom-[95px] left-[60px]">
             <h1 class="text-[3rem] font-[100] text-center leading-[3.25rem]">Code editing. <br><strong>Redefined.</strong></h1>
             <p class="py-2.5 pb-[25px] text-[18px] text-[#9d9d9d]">Free. Built on open source. Runs everywhere.</p>
-            <div class="flex">
-                <button class="bg-[#0071BC] px-8 py-2"><span class="font-semibold">Download for Windows </span><br> Stable Build</button>
+            <div class="flex hover:bg-[#035EA7]">
+                <button class="bg-[#0066b8] px-8 py-2 hover:bg-[#035EA7]"><span class="font-semibold">Download for Windows </span><br> Stable Build</button>
                 <div class="bg-black w-0.5"></div>
-                <img class="w-12" src="./Images/Options.png" alt="">
+                <div class="bg-[#0066b8] w-10 hover:bg-[#035EA7]"><img class="w-5 relative top-[22px] left-[10px]" src="./Images/Options.png" alt=""></div>
             </div> 
             <p class="text-[#9d9d9d] pt-[16px]">
                 <div class="bg-[#25252b] text-[14px] py-2 px-2 rounded-[8px] mb-4">
-                    <span class="text-blue-400">Web</span> , 
-                    <span class="text-blue-400">Insiders edition</span>, or 
-                    <span class="text-blue-400">other platforms </span>
+                    <span class="text-blue-400 hover:underline">Web</span> , 
+                    <span class="text-blue-400 hover:underline">Insiders edition</span>, or 
+                    <span class="text-blue-400 hover:underline">other platforms </span>
                 </div>
                 <div class="text-[#9d9d9d] text-center text-[12px]">
-                    By using VS Code, you agree to its <br> <span class="text-blue-400">license and privacy statement</span>.
+                    By using VS Code, you agree to its <br> <span class="text-blue-400 hover:underline">license and privacy statement</span>.
                 </div>
             </p>
         </div>
@@ -88,6 +88,9 @@
 
      <!-- Reviews Section -->
      <section class="flex bg-[#f5f5f5] p-24 justify-center gap-x-8">
+        <div class="self-center">
+            <img class="w-8 h-8" src="./Images/left-arrow.png" alt="">
+        </div>
         <div class="flex gap-x-2 w-[25%] ">
                 <img class="w-[4.2rem] h-[4.2rem] rounded-[60px]" src="./Images/Priyanshi.jpg" alt="">
                 <div class="">
@@ -109,18 +112,9 @@
                 <p class="text-[18px] text-[#454545]"> VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy</p>
             </div>    
         </div>
-        <!-- <div>
-            <img  class="w-[4.2rem] h-[4.2rem] rounded-[60px]" src="./Images/Gojo.jpg" alt=""> Darren @MrDarrenV
-            Just as I thought @code couldn't get better, out comes its Remote Development plugins that let you remote into containers as a dev environment! 😍
+        <div class="self-center">
+            <img  class="w-8 h-8" src="./Images/right-arrow.png" alt="">
         </div>
-        <div>
-            <img  class="w-[4.2rem] h-[4.2rem] rounded-[60px]" src="./Images/Gojo.jpg" alt=""> Cassidy Williams @cassidoo
-            I was a vim fan, but then discovered VS Code's Vim plugin, which lets me add in my vim keybindings. I can maintain my coding style without having to compromise on speed.
-        </div>
-        <div>
-            <img  class="w-[4.2rem] h-[4.2rem] rounded-[60px]" src="./Images/Gojo.jpg" alt=""> Gift Egwuenu @lauragift21
-            I love @code The built-in markdown previewer is awesome and the plugin system allows me to use GitLens, which makes my workflow so much easier.
-        </div> -->
      </section>
 
      <!-- Informative sections -->
@@ -136,7 +130,7 @@
     <div class="flex pt-[60px] pb-[60px] bg-[#f5f5f5]">
         <div class="mt-[15px] ml-[13%] text-[#444444]">
             <h2 class="text-[1.85rem] font-light">Print statement debugging is a thing of the past.</h2>
-            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem] w-[78%]">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem]">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
         </div>
         <img class="mt-[28px] ml-[10%] mr-[13%]  w-[23%] h-[23%]" src="./Images/home-debug.jpg" alt="">
     </div>
@@ -145,27 +139,27 @@
         <img class="mt-[28px] mr-[10%] ml-[13%] w-[23%] h-[23%]" src="./Images/home-git.jpg" alt="">
         <div class="mt-[15px] text-[#444444]">
             <h2 class="text-[1.85rem] font-light">Git commands built-in.</h2>
-            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem] w-[78%]"> with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem] w-[76%]">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
         </div> 
     </div>
     <!-- Section 4 -->
     <div class="flex pt-[60px] pb-[60px] bg-[#f5f5f5]">
         <div class="mt-[15px] ml-[13%]  text-[#444444]">
             <h2 class="text-[1.85rem] font-light">Extensible and customizable.</h2>
-            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem] w-[78%]">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. Learn more about extensions</p>
+            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem] ">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <span class="text-[#0071BC] hover:underline">Learn more about extensions</span></p>
         </div>
-        <img class="mt-[28px] ml-[10%] mr-[13%] w-[23%] h-[23%]" src="./Images/Hundreds-of-Extensions.png" alt="">
+        <img class="mt-[25px] ml-[10%] mr-[13%] w-[23%] h-[23%] hover:scale-110" src="./Images/Hundreds-of-Extensions.png" alt="">
     </div>
     <!-- Section 5 -->
     <div class="flex pt-[60px] pb-[60px]">
         <img class="mt-[28px] mr-[10%] ml-[13%] w-[23%] h-[23%]" src="./Images/home-azure.jpg" alt="">
         <div class="mt-[15px] text-[#444444]">
             <h2 class="text-[1.85rem] font-light">Deploy with confidence and ease</h2>
-            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem] w-[78%]">With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, all from within VS Code.</p>
+            <p class="mt-[18px] text-[1.12rem] leading-[2.12rem] w-[78%]">With <span class="text-[#0071BC] hover:underline"> Microsoft Azure </span>you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <span class="text-[#0071BC] hover:underline">all from within VS Code.</span></p>
         </div>
     </div>
     <!-- VS Code For Section -->
-    <div class="bg-[#f5f5f5] pt-[70px] pb-[60px] flex flex-col items-center">
+    <div class="bg-[#f5f5f5] py-[70px] flex flex-col items-center">
         <h2 class="text-[1.85rem] pb-[25px] font-light">VS Code for</h2>   
         <div class="grid grid-cols-6 gap-y-4 gap-x-8 text-[18px] pb-[25px]">
             <div class="flex">  
@@ -205,95 +199,144 @@
                 <img class="w-[30px] h-[30px]" src="./Images/yaml.jpg" alt="">YAML
             </div> 
         </div>
-        <p class="text-[#0071BC] text-[18px] pb-[50px]">and many more languages on the Marketplace...</p>
+        <p class="text-[#0071BC] text-[18px] pb-[50px] hover:underline">and many more languages on the Marketplace...</p>
         <button class="bg-[#0066b8] px-8 py-4 text-[20px] text-white"><span class="font-semibold">Get Started Now</span></button>
     </div>
     <!-- Operating System Section -->
     <section class="flex gap-x-12 justify-center py-[60px]">
         <div class="flex flex-col items-center gap-y-4">
             <img class="w-[100px] h-[100px]" src="./Images/windows-logo.png" alt="">
-            <button class="bg-[#0066b8] text-white py-[10px] px-[68px]"><span class="font-semibold text-[18px]">Windows</span><br><span class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">Windows 8,9,10</span></button>
-            <table class="text-[12px] "> <!--text-white-->
-                <tr >
-                    <td class="font-semibold text-[16px] text-[#444444]"> User Installer</td>
-                    <td>x64</td>
-                    <td>x86</td>
-                    <td>Arm64</td>
-                </tr>
-                <tr>
-                    <td class="font-semibold text-[16px] text-[#444444]">System Installer</td>
-                    <td>x64</td>
-                    <td>x86</td>
-                    <td>Arm64</td>
-                </tr>
-                <tr>
-                    <td class="font-semibold text-[16px] text-[#444444]">.zip</td>
-                    <td>x64</td>
-                    <td>x86</td>
-                    <td>Arm64</td>
-                </tr>
-            </table>
+            <button class="bg-[#0066b8] text-white py-[12px] px-[68px]">
+                <div class="font-semibold text-[18px] flex gap-x-4 items-center">
+                    <img class="w-[15px] h-[15px]" src="./Images/Download.png" alt="">
+                    <span>Windows</span> 
+                </div>
+                <div class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">Windows 8,9,10</div>
+            </button>
+            <div class="">
+                <div class="text-[12px] text-white">
+                   <span class="text-[16px] font-semibold text-black px-3">User Installer</span>
+                   <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x64</span>
+                   <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x86</span>
+                   <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm64</span>
+                </div>
+                <div class="text-[12px] text-white">
+                    <span class="text-[16px] font-semibold text-black px-[2px]">System Installer</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x64</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x86</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm64</span>
+                </div>
+                <div class="text-[12px] text-white">
+                    <span class="text-[16px] font-semibold text-black px-[46px]">.zip</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x64</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x86</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm64</span>
+                </div>
+            </div>
         </div>
         <div class="flex flex-col items-center gap-y-4">
             <img class="w-[100px] h-[100px]" src="./Images/linux-logo.png" alt="">
             <div>
-                <button class="bg-[#0066b8] text-white py-[10px] px-[34px]"><span class="font-semibold text-[18px]">.deb</span><br><span class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">Debian, Ubuntu</span></button>
-                <button class="bg-[#0066b8] text-white py-[10px] px-[14px]"><span class="font-semibold text-[18px]">.rpm</span><br><span class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">Red Hat, Fedora, SUSE</span></button>
+                <button class="bg-[#0066b8] text-white py-[12px] px-[30px]">
+                    <div class="font-semibold text-[18px] flex gap-x-4 items-center justify-center">
+                        <img class="w-[15px] h-[15px]" src="./Images/Download.png" alt="">
+                        <span>.deb</span> 
+                    </div>
+                    <div class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">Debian, Ubuntu</div>
+                </button>
+                <button class="bg-[#0066b8] text-white py-[12px] px-[13px]">
+                    <div class="font-semibold text-[18px] flex gap-x-4 items-center justify-center">
+                        <img class="w-[15px] h-[15px]" src="./Images/Download.png" alt="">
+                        <span>.rpm</span> 
+                    </div>
+                    <div class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">Red Hat, Fedora, SUSE</div>
+                </button>
             </div>
-            <table class="text-[12px] ">
-                <tr>
-                    <td class="font-semibold text-[16px] text-[#444444]">.deb</td>
-                    <td>x64</td>
-                    <td>Arm32</td>
-                    <td>Arm64</td>
-                </tr>
-                <tr>
-                    <td class="font-semibold text-[16px] text-[#444444]">.rpm</td>
-                    <td>x64</td>
-                    <td>Arm32</td>
-                    <td>Arm64</td>
-                </tr>
-                <tr>
-                    <td class="font-semibold text-[16px] text-[#444444]">.tar.gz</td>
-                    <td>x64</td>
-                    <td>x86</td>
-                    <td>Arm64</td>
-                </tr>
-                <tr>
-                    <td class="font-semibold text-[16px] text-[#444444]">Snap</td>
-                    <td>Snap Store</td>
-                </tr>  
-            </table>
+            <div class="">
+                <div class="text-[12px] text-white">
+                   <span class="text-[16px] font-semibold text-black px-[10px]">.deb</span>
+                   <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x64</span>
+                   <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm32</span>
+                   <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm64</span>
+                </div>
+                <div class="text-[12px] text-white">
+                    <span class="text-[16px] font-semibold text-black px-[9px]">.rpm</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x64</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm32</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm64</span>
+                </div>
+                <div class="text-[12px] text-white">
+                    <span class="text-[16px] font-semibold text-black px-[4px]">.tar.gz</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">x64</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm32</span>
+                    <span class="bg-[#0066b8] rounded-sm py-[1px] px-[3px]">Arm64</span>
+                </div>
+                <div class="text-[12px]">
+                    <span class="text-[16px] font-semibold px-[8px]">Snap</span>
+                    <span class="bg-[#0066b8] text-white rounded-sm py-[1px] px-[3px]">Snap Store</span>
+                </div>
+            </div>
         </div>
         <div class="flex flex-col items-center gap-y-4">
             <img class="w-[100px] h-[100px]" src="./Images/apple-logo.jpg" alt="">
-            <button class="bg-[#0066b8] text-white py-[10px] px-[68px]"><span class="font-semibold text-[18px]">Mac</span><br><span class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">macOS 10.11+</span></button>
-            <table class="text-[12px] ">
-                <tr>
-                    <td class="font-semibold text-[16px] text-[#444444]">.zip</td>
-                    <td>Universal</td>
-                    <td>Intell Chip</td>
-                    <td>Appple silicon</td>
-                </tr>
-            </table>
+            <button class="bg-[#0066b8] text-white py-[12px] px-[68px]">
+                <div class="font-semibold text-[18px] flex gap-x-4 items-center justify-center">
+                    <img class="w-[15px] h-[15px]" src="./Images/Download.png" alt="">
+                    <span>Mac</span> 
+                </div>
+                <div class="text-[12px] font-semibold text-[rgba(255,255,255,.9)]">macOS 10.11+</div>
+            </button>
+            <div class="text-[12px] text-white">
+                <span class="font-semibold text-[16px] text-[#444444]">.zip</span>
+                <span class="bg-[#0066b8] rounded-sm py-[1px] px-[2px]">Universal</span>
+                <span class="bg-[#0066b8] rounded-sm py-[1px] px-[2px]">Intell Chip</span>
+                <span class="bg-[#0066b8] rounded-sm py-[1px] px-[2px]">Appple silicon</span>
+            </div>
         </div>
    </section>
    <!-- Details Section -->
-   <section class="bg-[#f5f5f5] flex justify-center text-center pt-[5%] pb-[8%] pl-[20%] pr-[20%]">
-        <div class="text-start ">
-            <strong class="text-[18px]">Want new features sooner?</strong> 
-            <p class="text-[12px]">Get the Insiders build instead.</p>
+   <section class="bg-[#f5f5f5] py-[3%]">
+    <div class="flex justify-between text-center pb-[5%] px-[20%] leading-9">
+        <div class="">
+            <p class="text-[21px] text-[#444] font-semibold">Want new features sooner?</p> 
+            <p class="text-[19px]">Get the <span class="text-[#0071BC] hover:underline">Insiders build</span> instead.</p>
         </div>
-        <div class="self-end">
-            <p class="text-[14px] leading-7 pt-[25%]">
-            LICENSE AND PRIVACY TERMS <br>
-            By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.
+        <div class="">
+            <p class="text-[21px] text-[#444] font-semibold">Use <span class="text-[#0071BC] hover:underline">vscode.dev</span> for quick edits online!</p> 
+            <p class="text-[19px]">GitHub, Azure Repos, and local files.</p> 
+        </div>
+    </div> 
+    <div class="px-[20%] flex justify-center ">
+        <div class="text-[#6c6c6c] leading-9 text-center w-[83%]">
+            <span class="font-semibold text-[13px]">LICENSE AND PRIVACY TERMS</span> 
+            <br>
+            <p class="text-[14px]">
+                By downloading and using Visual Studio Code, you agree to the <span class="text-[#0071BC] hover:underline">license terms</span> and <span class="text-[#0071BC] hover:underline">privacy statement</span>. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <span class="text-[#0071BC] hover:underline">How to Disable Crash Reporting</span> to learn how to disable it.
             </p>
-        </div>
-        <div class="text-start">
-            <strong class="text-[15px]">Use vscode.dev for quick edits online!</strong> 
-            <p class="text-[12px]">GitHub, Azure Repos, and local files.</p> 
-        </div>
+        </div>  
+    </div>
    </section>
+   <!-- Footer Section -->
+   <footer class="bg-[#333] flex justify-between py-[25px] px-[12%] items-center">
+        <div class="flex ">
+            <div class="flex justify-between text-[14px] gap-x-4">
+                <div class="text-white">Hello from Priyanshi.</div>
+                <a class="text-white hover:text-violet-400" href="https://github.com/PriyanshiNegi">Follow @PriyanshiNegi</a>
+                <div class="flex gap-x-1" >
+                    <span class="bg-white rounded-sm flex items-center gap-x-1 font-bold text-[11px] px-1 py-[1px]"><img class="w-[14px] h-[14px]" src="./Images/github.png" alt="">Star</span>
+                    <span class="bg-white rounded-sm font-bold text-[11px] px-1 py-[1px]">139,759</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="text-white flex text-[12px] justify-between 2">
+                <li class="px-3 hover:text-violet-400">Support</li>
+                <li class="px-3 hover:text-violet-400">Privacy</li>
+                <li class="px-3 hover:text-violet-400">Terms of Use</li>
+                <li class="px-3 hover:text-violet-400">Lisence</li>
+                <li class="px-3"><img class="w-22 h-5" src="./Images/microsoft-logo.png" alt="">© 2022 Microsoft</li>
+            </ul>
+        </div>
+   </footer>
 </body>
 </html>
