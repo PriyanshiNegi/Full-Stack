@@ -1,0 +1,1 @@
+This folder contains all the landing pages Project 1 - Project 6 created using pure CSS.
