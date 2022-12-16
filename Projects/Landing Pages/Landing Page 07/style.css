@@ -27,12 +27,12 @@ main{
     background-repeat: no-repeat;
     background-position: right center, right center;
     overflow: visible , hidden;
-    padding :10% 8%;
+    padding :8% 8%;
 }
 main div {
     display: flex;
 }
-main p{
+main>p{
     width: 50%;
     font-size:20px ;
     position: relative;
@@ -59,4 +59,58 @@ main h1{
 .logo img{
     width :110px;
     height:60px;
+}
+
+/* Section 1 */
+.section1{
+    padding :8% 8%;
+}
+
+.onesection1{
+    display: flex;
+    align-items: center;
+}
+
+.onesection1 h1{
+    font-size:60px ;
+    font-weight:400;
+    width: 60%;
+}
+.onesection1 p{
+    font-size:20px ;
+    width :40%;
+}
+.onesection1 span{
+    color: #f637ec;
+}
+.section1>.twosection1>div>img{
+    width: 110px;
+    height: 110px;
+}
+
+.twosection1{
+    display: flex;
+    gap :15px;
+}
+.twoone{
+    width: 350px;
+    height: 350px;
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-image-source: linear-gradient(left, #743ad5, #d53a9d);
+}
+.twotwo{
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(#403c3a, #5d5d5c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.twotwo p{
+    text-align: center;
 }
