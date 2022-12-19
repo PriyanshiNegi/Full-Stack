@@ -14,39 +14,76 @@ ul{
     list-style: none;
     display: flex;
     gap: 35px;
+    align-items: center;
 }
 nav img{
     width :110px;
     height:60px;
 }
+.listitem{
+    background-image: url("./Assets/Icons/btn-pink-bg.svg");
+    background-repeat: no-repeat;
+}
 /* Main Section */
 main{
-    background-image: url("./Assets/Photos/backCards.png"), url("./Assets/Photos/frontCards.png");
-    background-size: 600px 600px , 800px 600px;
-    background-position: right;
+    background-image: url("./Assets/Photos/backCards.png");
     background-repeat: no-repeat;
-    background-position: right center, right center;
-    overflow: visible , hidden;
-    padding :8% 8%;
-}
-main div {
+    background-position: bottom 200px right;
+    background-size: 900px, 700px;
+    padding :5% 8%;
     display: flex;
 }
-main>p{
-    width: 50%;
-    font-size:20px ;
+/* main>div>p{
+    font-size:18px ;
+    color: #8a858a;
+    padding-top: 50px;
+} */
+.started{
     position: relative;
-    bottom : 70px;
+    bottom:30px;
+    font-weight: 500;
 }
+.started img:first-child{
+    position: relative;
+    left:20px;
+    top:3px;
+}
+.started img:nth-child(2){
+    width:35px;
+    position: relative;
+    left:10px;
+}
+
 main span{
     color: #f637ec;
 }
 main h1{
-    font-size:80px ;
+    font-size:70px ;
     font-weight:400;
-    width: 80%;
+}
+.main2 h2{
+    font-weight:400;
+    font-size:40px ;
+}
+.image{
+    height: 50px;
     position: relative;
-    bottom : 90px;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.main2{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+main>img{
+    height: 700px;
+    position: relative;
+    left:260px;
+    bottom: 30px;
 }
 /* Logo Section */
 .logo{
@@ -143,7 +180,7 @@ main h1{
 
 /* Section 3 */
 .section3{
-    padding :5% 12%;
+    padding :5% 10%;
 }
 .section3 h1{
     font-size:60px ;
@@ -209,8 +246,48 @@ main h1{
 }
 /* Section 4 */
 .section4{
-    padding :10% 12%;
-    background-image:  url("./Assets/Photos/Diamond-left.png"), url("./Assets/Photos/Diamond-right.png"),url("./Assets/Photos/Rectangle 6774.png"), url("./Assets/Photos/Rectangle 6773.png");
+    padding :10% 10%;
+    background-image:  url("./Assets/Photos/Diamond-right.png"), url("./Assets/Photos/Diamond-left.png"),url("./Assets/Photos/Rectangle 6774.png"), url("./Assets/Photos/Rectangle 6773.png");
     background-repeat: no-repeat;
-    /* background-position: ; */
+    background-size: contain, contain , cover,cover;
+    background-position: left ,right, left, right;
+}
+.section4 h1{
+    font-size:70px ;
+    font-weight:500;
+    width :80%;
+    position: relative;
+    left :70px;
+    text-align: center;
+}
+.section4 p{
+    text-align: center;
+    font-weight: 500;
+}
+.section4 p img:first-child{
+    position: relative;
+    left :20px;
+    top:5px;
+}
+.section4 p img:nth-child(2){
+    width:35px;
+}
+.section4 span{
+    color: #000000;
+}
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    padding: 7% 8%;
+    gap: 200px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+footer img{
+    width :110px;
+    height:60px;
 }
