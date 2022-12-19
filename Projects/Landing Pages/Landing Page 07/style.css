@@ -114,3 +114,103 @@ main h1{
 .twotwo p{
     text-align: center;
 }
+/* Section 2 */
+
+.section2{
+    background-color:#fceffb;
+    color: #000000;
+    text-align: center;
+    padding-top: 5%;
+}
+.section2 h1{
+    font-size:70px ;
+    font-weight:400;
+    padding :0% 23%;
+}
+.section2 span{
+    color: #f637ec;
+    font-weight: bolder;
+}
+.section2 p{
+    padding :0% 30%;
+    font-size: 16px;
+    color: #686468;
+}
+.section2 img{
+    position: relative;
+    bottom:50px;
+}
+
+/* Section 3 */
+.section3{
+    padding :5% 12%;
+}
+.section3 h1{
+    font-size:60px ;
+    font-weight:400;
+    width :80%;
+    position: relative;
+    left :70px;
+    text-align: center;
+}
+.section3 span{
+    color: #f637ec;
+}
+.section3>p{
+    font-size: 18px;
+    color: #686468;
+    position: relative;
+    left:200px;
+    width:50%;
+    text-align: center;
+}
+
+/* Buttons */
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:8px;
+}
+.button1{
+    background-color:#f637ec ;
+    width: 73px;
+    height: 13px;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #d53a9d;
+}
+.button2{
+    background-color:#474447;
+    width: 13px;
+    height: 13px;
+    border: 1px;
+    border-radius: 8px;
+}
+/* Block */
+.blocks{
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: 43% 43%;
+    grid-template-rows: 50% 50%;
+    gap :40px;
+    justify-content: center;    
+}
+.block1{
+    background-image: linear-gradient(#403c3a, #5d5d5c);
+    padding :30px;
+    width :400px;
+    height: 200px;
+}
+.block2{
+    background-color: #1e1f24;
+    padding :30px;
+    width :400px;
+    height: 200px;
+}
+/* Section 4 */
+.section4{
+    padding :10% 12%;
+    background-image:  url("./Assets/Photos/Diamond-left.png"), url("./Assets/Photos/Diamond-right.png"),url("./Assets/Photos/Rectangle 6774.png"), url("./Assets/Photos/Rectangle 6773.png");
+    background-repeat: no-repeat;
+    /* background-position: ; */
+}
