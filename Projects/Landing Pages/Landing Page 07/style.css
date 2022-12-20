@@ -28,20 +28,40 @@ nav img{
 main{
     background-image: url("./Assets/Photos/backCards.png");
     background-repeat: no-repeat;
-    background-position: bottom 200px right;
-    background-size: 900px, 700px;
-    padding :5% 8%;
+    background-position: bottom 130px right -150px;
+    background-size: 900px, 600px;
     display: flex;
+    padding :5% 8%;
+    overflow: hidden;
 }
-/* main>div>p{
+/*Main Right*/
+main>img{
+    height: 600px;
+    position: relative;
+    right:180px;
+    bottom: 20px;
+} 
+/* Main Left */
+main h1{
+    font-size:80px ;
+    font-weight:400;
+    width:950px;
+}
+main span{
+    color: #f637ec;
+}
+main>div>p{
     font-size:18px ;
     color: #8a858a;
     padding-top: 50px;
-} */
-.started{
+    width:63%;
     position: relative;
-    bottom:30px;
+    bottom:70px;
+}
+.started{
     font-weight: 500;
+    position: relative;
+    bottom: 30px;
 }
 .started img:first-child{
     position: relative;
@@ -52,14 +72,6 @@ main{
     width:35px;
     position: relative;
     left:10px;
-}
-
-main span{
-    color: #f637ec;
-}
-main h1{
-    font-size:70px ;
-    font-weight:400;
 }
 .main2 h2{
     font-weight:400;
@@ -79,12 +91,7 @@ main h1{
     align-items: center;
     gap:10px;
 }
-main>img{
-    height: 700px;
-    position: relative;
-    left:260px;
-    bottom: 30px;
-}
+
 /* Logo Section */
 .logo{
     padding :4% 18%;
@@ -100,9 +107,8 @@ main>img{
 
 /* Section 1 */
 .section1{
-    padding :8% 8%;
+    padding :5% 8%;
 }
-
 .onesection1{
     display: flex;
     align-items: center;
@@ -115,7 +121,8 @@ main>img{
 }
 .onesection1 p{
     font-size:20px ;
-    width :40%;
+    width :38%;
+    color: #8a858a;
 }
 .onesection1 span{
     color: #f637ec;
@@ -124,29 +131,36 @@ main>img{
     width: 110px;
     height: 110px;
 }
-
 .twosection1{
     display: flex;
-    gap :15px;
+    gap :45px;
+    justify-content: center;
+    margin :5% 0%;
 }
 .twoone{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     background-color: #272727;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-image-source: linear-gradient(left, #743ad5, #d53a9d);
+    border: 2px solid;
+    border-image: linear-gradient(135deg, rgb(247, 245, 247), rgb(75, 73, 67)) 1;
+    position: relative;
+    top:40px;
 }
 .twotwo{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     background-image: linear-gradient(#403c3a, #5d5d5c);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 3px solid;
+    border-image: linear-gradient(135deg, rgb(247, 245, 247), rgb(75, 73, 67)) 1;
+    align-self: flex-start;
 }
 .twotwo p{
     text-align: center;
@@ -237,12 +251,16 @@ main>img{
     padding :30px;
     width :400px;
     height: 200px;
+    border: 2px solid;
+    border-image: linear-gradient(135deg, rgb(247, 245, 247), rgb(75, 73, 67)) 1;
 }
 .block2{
     background-color: #1e1f24;
     padding :30px;
     width :400px;
     height: 200px;
+    border: 2px solid;
+    border-image: linear-gradient(180deg, rgb(247, 245, 247), #1e1f24) 1;
 }
 /* Section 4 */
 .section4{
