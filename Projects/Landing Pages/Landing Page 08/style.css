@@ -1,5 +1,189 @@
 body{
-    color:#9b9a9a;
     background-color: #111010;
+    color: #ffffff;
+    font-family:"Poppins";
 }
 /* Navbar */
+nav{
+    color:#9b9a9a;
+    display: flex;
+    padding:2% 10%;
+    justify-content: space-between;
+    font-size: 17px;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+nav button{
+    background-color: #0c8bfd;
+    color: #ffffff;
+    width:120px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+/* Main Section */
+main{
+    padding:4% 10%;
+    display: flex;
+    /* justify-items: top; */
+}
+main div{
+    position: relative;
+    bottom:50px;
+}
+main h1{
+    font-size:65px ;
+    font-weight:600;
+    line-height:1.25em;
+}
+main i{
+    color: #0c8bfd ;
+}
+main p{
+    font-size:21px ;
+    color: #8a858a;
+    width: 90%;
+}
+main button{
+    color: #ffffff;
+    width:180px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin:30px 0;
+}
+.buttonone{
+    background-color: #0c8bfd; 
+}
+.buttontwo{
+    background-color: #111010;
+    border:1px solid #ffffff;
+    margin-left: 30px;
+}
+/* Logo Section */
+.logo{
+    padding : 2% 18%;
+    background-color: #1d1c1c;
+    display: flex;
+    justify-content:space-between;
+}
+.logo img{
+    width :130px;
+    height:80px;
+}
+/* Features Section */
+.features{
+    background-color: #ffffff;
+    padding : 2% 10%;
+    color: #000;
+}
+/* First Part Features Section */
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.first h1{
+    font-size:55px ;
+    font-weight:600;
+}
+
+.first>p{
+    color: #8a858a;
+    font-size:21px ;
+    text-align: center;
+    width:50%;
+    position: relative;
+    bottom: 30px;
+}
+.cards{
+    display: flex;
+    gap:40px;
+    padding-bottom: 100px;
+}
+.card1{
+    text-align:center;
+    border: 2px solid #bdb5bd;
+    border-radius: 30px;
+    padding: 25px 20px;
+    position: relative;
+    top:40px;
+}
+.card2 h3,.card1 h3 {
+    font-size: 28px;
+}
+.card1 p, .card2 p{
+    color: #8a858a;
+    font-size: 19px;
+}
+.card2{
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 25px 20px;
+    text-align: center;
+}
+/* Second Heading */
+.first h2{
+    font-size:55px ;
+    font-weight:600;
+    padding-right:20%;
+}
+/* Second Part Features Section */
+  .second{
+    display: flex;
+    gap:40px;
+  }
+  .one{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    font-size: 23px;
+    font-weight: 500;
+    width: 60%;
+  }
+  .one div{
+    border:2px solid #bdb5bd;
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .one div:first-child{
+    background-color: #0c8bfd;
+    border: none;
+    color: #ffffff;
+  }
+  .two{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 19px;
+    font-weight: 400;
+    gap:10px;
+    width: 40%;
+    border-radius:50px ;
+    background-color: #000;
+    color: #eaeaea;
+  }
+  .two div{
+    background-color: #292828;
+    border-radius: 50px;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Hosting Section */
+  .host{
+    display: flex;
+  }
+ .hosttwo{
+    display: flex;
+ }
