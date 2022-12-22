@@ -175,15 +175,188 @@ main button{
   .two div{
     background-color: #292828;
     border-radius: 50px;
-    padding: 17px;
+    padding: 19px;
     display: flex;
     justify-content: space-between;
   }
 
   /* Hosting Section */
-  .host{
+ .hosting{
+    padding: 5% 10% ;
+ }
+ .host{
     display: flex;
+    justify-content: center;
+  }
+  .host h1{
+    text-align: center;
+    font-size:55px ;
+    font-weight:600;
+    width: 80%;
+  }
+  .host img{
+    position: relative;
+    top:70px;
   }
  .hosttwo{
+    padding-top: 8%;
     display: flex;
+    justify-content: space-between;
+    gap:30px;
  }
+ .hosttwo1{
+    width: 33%;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 30px;
+    padding:0px 20px 30px 20px;
+ }
+ .hosttwo1 button{
+    background-color:#0c8bfd ;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+ }
+ .hosttwo1 h2, .hosttwo2 h2{
+    font-size: 45px;
+    font-weight: 600;
+ }
+ .hosttwo1 h1, .hosttwo2 h1{
+    font-size: 52px;
+    font-weight: 600;
+ }
+ .hosttwo1 h1 span{
+    color: #cecece;
+    font-size: 32px;
+    font-weight: 600;
+ }
+ .hosttwo2 h1 span{
+    color: #85c5fe;
+    font-size: 32px;
+    font-weight: 600;
+ }
+ .line{
+    height: 1px;
+    background-color: #e7e7e7;
+ }
+ .hosttwo2{
+    width: 33%;
+    background-color:#0c8bfd;
+    padding :0px 20px 30px 20px;
+    border-radius: 30px;
+ }
+ .hosttwo2 button{
+    background-color: #fff;
+    color: #0c8bfd;
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+ }
+ .perks{
+    padding: 30px 0;
+    font-size: 19px;
+ }
+ .perks div{
+    display: flex;
+    gap:10px;
+ }
+ /* Review Section */
+ .review{
+    background-color: #fff;
+    padding :5% 10%;
+    color: #000;
+ }
+.reviewone{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.reviewone h1{
+    font-size:60px ;
+    font-weight:600;
+    width: 50%;
+    line-height: 1.25em;
+}
+.reviewone p{
+    font-size:20px ;
+    color: #8a858a;
+    width: 50%;
+}
+.reviewtwo{
+    display: flex;
+    gap:50px;
+}
+.reviewblock1{
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+.reviewblock1 p, .reviewblock2 p{
+    color: #8b8b8b;
+}
+.reviewblock1 div, .reviewblock2 div{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.reviewblock2{
+    border-radius: 30px;
+    padding: 30px;
+    border: 1px solid #9b9a9a;
+}
+.reviewthree{
+    margin-top: 80px;
+    border-bottom: 8px solid #f3f3f3;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px ;
+    height: 8px;
+}
+.reviewthree::after{
+  content: '';
+  display: block;
+  border-bottom: 8px solid #0c8bfd;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px ;
+  max-width: 200px;
+  position: relative;
+  top:8px;
+}
+/* Last Section */
+.last{
+    padding:2% 10%;
+}
+.last h1{
+    font-size:57px ;
+    font-weight:600;
+    text-align: center;
+}
+form{
+    background-color: #292828;
+    padding: 50px 25px;
+    border-radius: 40px;
+    display: flex;
+    gap: 20px;
+}
+form input{
+    background-color: #3e3d3d;
+    padding: 15px 19px;
+    border: none;
+    border-radius: 30px;
+    color: #929191;
+    font-size: 18px;
+    width: 300px;
+}
+form button{
+    background-color: #0c8bfd;
+    color: #ffffff;
+    width:190px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+}
