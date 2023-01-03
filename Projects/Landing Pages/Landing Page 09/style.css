@@ -106,6 +106,14 @@ nav button{
     font-size:2em;
     font-weight: 700;
 }
+.latestgame div button{
+    background-color:#f4694c;
+    border: none;
+    color: #ffffff;
+    width:120px;
+    height: 40px;
+    font-size: 17px;
+}
 .recommended{
     display: flex;
     justify-content: space-between;
@@ -114,4 +122,27 @@ nav button{
 .recommended h1{
     font-size:2em;
     font-weight: 700;
+}
+.collection{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap:10px;
+}
+.collectionimage{
+    width: 200px;
+    height: 250px;
+}
+.collect{
+    display: flex;
+    gap:20px;
+}
+.collect div button{
+    background-color:#f4694c;
+    border: none;
+    color: #ffffff;
+    width:120px;
+    height: 40px;
+    font-size: 17px;
 }
