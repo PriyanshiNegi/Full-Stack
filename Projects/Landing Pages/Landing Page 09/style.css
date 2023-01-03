@@ -1,0 +1,117 @@
+body{
+    font-family:"Poppins";
+}
+/* Main*/
+main{
+    background-image: url("./Assets/Photos/futuristic-bg.png");
+    color: #c4c0c0;
+    padding:2% 10%;
+}
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+nav button{
+    background-color:#f4694c;
+    border: none;
+    color: #ffffff;
+    width:120px;
+    height: 40px;
+    font-size: 18px;
+}
+/* Main Section */
+.mainsection{
+    padding:5% 0;
+    display: flex;
+    gap:30px;
+}
+/* Main Left */
+.mainleft h1{
+   color: #ffffff;
+   font-size:3em;
+   font-weight: 600;
+}
+.mainleft p{
+    width: 55%;
+}
+.left{
+    padding-top: 2%;
+    display: flex;
+    gap:20px;
+}
+.left button{
+    background-color:#f4694c;
+    border: none;
+    color: #ffffff;
+    width:120px;
+    height: 40px;
+    font-size: 17px;
+}
+/* Main Right */
+.mainright{
+    align-self: flex-end;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:130px;
+}
+.mainright img{
+    width: 70px;
+}
+.mainright div{
+   color: #ffffff;
+   font-size: 19px;
+}
+.right{
+   display: flex;
+   gap:10px;
+}
+/* Games Section */
+.games{
+    padding:5% 7%;
+    display: flex;
+    flex-direction: column;
+}
+.games h1{
+    font-size:2em;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    gap:30px;
+}
+.cardsimage{
+    height:320px;
+    width:300px;
+}
+.latestgame{
+    padding-top: 150px;
+    display: flex;
+    gap:100px;
+}
+.latestgame img{
+    width: 500px;
+    height: 400px ;
+}
+.latestgame div h1{
+    font-size:2em;
+    font-weight: 700;
+}
+.recommended{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recommended h1{
+    font-size:2em;
+    font-weight: 700;
+}
