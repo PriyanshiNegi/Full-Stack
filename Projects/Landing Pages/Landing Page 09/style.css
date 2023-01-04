@@ -4,6 +4,7 @@ body{
 /* Main*/
 main{
     background-image: url("./Assets/Photos/futuristic-bg.png");
+    background-size:auto;
     color: #c4c0c0;
     padding:2% 10%;
 }
@@ -81,9 +82,10 @@ nav button{
     display: flex;
     flex-direction: column;
 }
-.games h1{
+.games>h1{
     font-size:2em;
     font-weight: 700;
+    text-align: center;
 }
 .cards{
     display: flex;
@@ -139,6 +141,63 @@ nav button{
     gap:20px;
 }
 .collect div button{
+    background-color:#f4694c;
+    border: none;
+    color: #ffffff;
+    width:120px;
+    height: 40px;
+    font-size: 17px;
+}
+/* Last Section */
+.last{
+    background-color: #000;
+    color: #ffffff;
+    background-image: url("./Assets/Icons/GAMES OF THE WORLD.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:5% 7%;
+}
+.last h1{
+    font-size:2em;
+    font-weight: 700;
+    text-align: center;
+}
+.lastfirst{
+    display: flex;
+    gap:50px;
+}
+.lastfirst img{
+    width: 500px;
+    height: 500px;
+}
+.firstright{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.firstright p{
+    padding-top: 30px;
+    width: 65%;
+    color: #c4c0c0;
+}
+.images img{
+    width:250px;
+    height: 350px;
+}
+.images{
+    display: flex;
+    gap:40px;
+}
+/* Last Section Second Block */
+.lastsecond{
+    padding :5% 0%;
+    background-image: url("./Assets/Photos/Rectangle 606.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lastsecond button{
     background-color:#f4694c;
     border: none;
     color: #ffffff;
