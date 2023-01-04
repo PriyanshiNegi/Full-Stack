@@ -48,13 +48,21 @@ nav button{
     display: flex;
     gap:20px;
 }
-.left button{
+.left button:first-child{
     background-color:#f4694c;
     border: none;
     color: #ffffff;
     width:120px;
     height: 40px;
-    font-size: 17px;
+    font-size: 15px;
+}
+.left button{
+    border: 2px solid #fff;
+    width:120px;
+    height: 40px;
+    font-size: 15px;
+    background-color:transparent;
+    color:#ffffff;
 }
 /* Main Right */
 .mainright{
@@ -83,20 +91,41 @@ nav button{
     flex-direction: column;
 }
 .games>h1{
-    font-size:2em;
+    font-size:2.5em;
     font-weight: 700;
     text-align: center;
 }
 .cards{
     display: flex;
+    justify-content: center;
     gap:30px;
 }
 .cardsimage{
-    height:320px;
+    height:330px;
     width:300px;
 }
+.cardcontent{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    padding: 10px 20px;
+    backdrop-filter: blur(70px);
+    position: relative;
+    bottom: 90px;
+    color: #ffffff;
+    font-size: 15px ;
+    line-height: 15px;
+}
+.cardcontent button{
+    background-color:#f4694c;
+    border: none;
+    color: #ffffff;
+    width:110px;
+    height: 40px;
+    font-size: 16px;
+}
 .latestgame{
-    padding-top: 150px;
+    padding-top: 0px;
     display: flex;
     gap:100px;
 }
@@ -104,9 +133,17 @@ nav button{
     width: 500px;
     height: 400px ;
 }
+.latestgame div {
+    width: 45%;
+}
 .latestgame div h1{
-    font-size:2em;
+    font-size:2.5em;
     font-weight: 700;
+}
+.latestgame div p{
+    color: #6a6767;
+    font-size: 16px;
+    padding-bottom: 30px;
 }
 .latestgame div button{
     background-color:#f4694c;
@@ -116,6 +153,7 @@ nav button{
     height: 40px;
     font-size: 17px;
 }
+
 .recommended{
     display: flex;
     justify-content: space-between;
