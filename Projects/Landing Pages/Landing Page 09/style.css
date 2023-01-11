@@ -15,6 +15,11 @@ nav{
     font-size: 17px;
     align-items: center;
 }
+nav>div{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -231,9 +236,6 @@ nav button{
 .last{
     background-color: #000;
     color: #ffffff;
-    background-image: url("./Assets/Icons/GAMES OF THE WORLD.svg");
-    background-repeat: no-repeat;
-    background-position: center;
     padding:5% 7%;
 }
 .last h1{
@@ -243,38 +245,67 @@ nav button{
 }
 .lastfirst{
     display: flex;
-    gap:50px;
+    gap:80px;
+    background-image: url("./Assets/Icons/GAMES OF THE WORLD.svg");
+    background-repeat: no-repeat;
+    background-position:left 100% top 30%;
 }
-.lastfirst img{
-    width: 500px;
-    height: 500px;
+.lastfirst>img{
+    width: 400px;
+    height: 450px;
 }
 .firstright{
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap:50px;
+    padding-top: 40px;
+    width: 50%;
+
 }
 .firstright p{
     padding-top: 30px;
-    width: 65%;
     color: #c4c0c0;
 }
-.images img{
-    width:250px;
-    height: 350px;
+.firstright div img{
+    width:330px;
+    height:370px;
+    margin-bottom:80px;
 }
 .images{
     display: flex;
-    gap:40px;
+    gap:80px;
+}
+.images img:nth-child(2){
+    position: relative;
+    top:140px;
+    height: 230px;
 }
 /* Last Section Second Block */
-.lastsecond{
-    padding :5% 0%;
+.lastwrap{
+    position: relative;
+}
+.lastwrap:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; 
     background-image: url("./Assets/Photos/Rectangle 606.png");
     background-size: cover;
+}
+.lastsecond{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding :5% 0%;
+}
+.lastsecond p{
+    width:400px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #c0bdbd;
 }
 .lastsecond button{
     background-color:#f4694c;
@@ -286,13 +317,16 @@ nav button{
 }
 /* footer */
 footer{
-    padding-top:70px;
+    padding-top:80px;
     display: flex;
     color: #c0bdbd;
     align-items:baseline;
 }
 footer div p{
     width:60%;
+}
+footer div img{
+    padding-right: 10px;
 }
 .details{
     display: flex;
