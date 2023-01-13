@@ -51,19 +51,62 @@ main div button{
     border-radius: 20px;
     margin-bottom: 20px;
 }
-/* Logo Section */
+/* Logo */
 .logo{
      background-color: #fff;
-     border-radius: 20px;
-     position: absolute;
-     padding: 50px;
+     border-radius: 30px;
+     padding: 60px;
      margin:0 20px;
      display: flex;
      align-items: center;
-     gap:150px;
-
+     gap:100px;
+     position: relative;
+     top:80px;
+}
+.logo img{
+    width:150px;
 }
 /* Hero Section */
 .hero{
     background-color: #f6f8fa;
+}
+.hero h1{
+    padding-top: 120px;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 4rem;
+    text-align: center;
+}
+.cards{
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 420px 420px 420px;
+    justify-items: center;
+}
+.cards div img{
+    width:310px;
+    height:340px;
+    border-radius: 25px;
+}
+.carddetails{
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    bottom:50px;
+    left:20px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.carddetails button{
+    background-color: #6663e9;
+    border: none;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
