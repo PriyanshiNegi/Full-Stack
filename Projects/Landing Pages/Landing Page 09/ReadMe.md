@@ -1,7 +1,7 @@
 ## Landing Page 9
 <br>
 
-[Live Link]()
+[Live Link](https://priyanshi-landingpage-nine.netlify.app/)
 
 <br>
 
