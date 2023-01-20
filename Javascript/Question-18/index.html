@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 18</title>
+    <script>
+        const month = prompt ("Enter the name of the Month");
+        if( month == "January" || month == "March" || month == "May" || month == "July" || month == "August" || month == "October" || month == "December"){
+            console.log("The total number of days in this month are 31");
+        }
+        else if (month == "April" || month == "June" || month == "September" || month == "November"){
+            console.log("The total number of days in this month are 30");
+        }
+        else if (month == "February"){
+            const year = prompt("Enter the year");
+            
+            if(year%4==0){
+            console.log ("The number of days in this month are 29 since this a leap year");
+            }
+            else{
+            console.log ("The number of days in this month are 28 since this not a leap year");
+            }
+        }
+        else{
+            console.log("Enter a valid month");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
