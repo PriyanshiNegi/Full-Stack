@@ -29,4 +29,3 @@ console.log("Minutes Now :",minutesNow);
 const msec = Date.now();//Returns the numeric value corresponding to the current time—the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC, with leap seconds ignored.
 console.log("Milliseconds Elapsed from 1 Jan 1970 :",msec);
 console.log("Seconds Elapsed from 1 Jan 1970 :",(msec*0.001));
-
