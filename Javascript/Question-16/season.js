@@ -12,4 +12,7 @@ switch (season){
         break;
     case ("June" || "July" || "August") : 
         console.log("Summer");
+        break;
+    default:
+        console.log("Enter a valid month");
 }
