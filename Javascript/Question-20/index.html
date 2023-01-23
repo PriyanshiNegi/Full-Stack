@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 20</title>
+    <script>
+        const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+        if(shoppingCart.includes('Meat') == false){
+            shoppingCart.unshift('Meat');
+        }
+        if(shoppingCart.includes('Sugar') == false){
+            shoppingCart[shoppingCart.length]='Sugar';// shoppingCart.push('Sugar'); push puts the value at the end
+        }
+        if(shoppingCart.includes('Honey') == true){
+            const locationOfHoney = shoppingCart.indexOf('Honey');//finding the location of Honey
+            shoppingCart.splice(locationOfHoney,1);//removing 1 element from that index i.e. Honey removed
+        }
+        if(shoppingCart.includes('Tea') == true){
+            const locationOfTea = shoppingCart.indexOf('Tea');//finding where the Tea is at in array
+            shoppingCart.splice(locationOfTea,1,'Green Tea');//replacing the value of 1 element
+        }
+        console.log(shoppingCart);
+    </script>
+</head>
+<body>
+</body>
+</html>

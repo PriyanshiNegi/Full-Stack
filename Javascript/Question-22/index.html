@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 22</title>
+    <script>
+        const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+        ages.sort();// The original array gets updated
+
+        let min = ages[0];
+        let max = ages[ages.length-1];
+        console.log("The minimum array value =",min);
+        console.log("The maximum array value =",max);
+
+        if(ages.length % 2 == 0){
+            let median = (ages[(ages.length/2)-1] + ages[ages.length/2])/2;
+            console.log("There are even number of elements thus the median =",median);
+        }
+        else{
+            let median = ages[ages.length/2];
+            console.log("There are odd number of elements thus the median =",median);
+        }
+
+        let sum = 0;
+        for(let i=0;i<ages.length;i++){
+            sum=sum+ages[i];
+        }
+        let average = sum/ages.length;
+        console.log("The average =",average);
+
+        let range = max-min;
+        console.log("The range =", range);
+
+        let minrange = Math.abs(min-average);
+        let maxrange = Math.abs(max-average);
+
+        if(minrange>maxrange){
+            console.log("The minrange is greater");
+        }
+        else if(minrange<maxrange){
+            console.log("The maxrange is greater");
+        }
+        else{
+            console.log("Both are equal");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
+<!-- 
+    - Compare the value of (min - average) and (max - average), use abs() method -->

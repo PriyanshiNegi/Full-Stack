@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question 27</title>
     <script>
-        for(const i=0 ; i<=100 ; i++){
-            if(i%2==0){
-                continue;
+        for(let i=0 ; i<=100 ; i++)
+        {
+            let c = 0;
+            for(let j=0; j<=i;j++)
+            {
+                if(i%j==0){
+                    c++;
+                }
+            } 
+            if(c==2)//the count should be 2 since the number should once be divisible by 1 and second by itself only
+            {
+                console.log(i);
             }
         }
     </script>
