@@ -5,18 +5,20 @@ bodyVar.addEventListener("click", function addElementToBody(e){
     const circle = document.createElement("div"); // creating the element
 
     //styling the element
-
-    circle.style.height ="20px" ; //giving width and height to the element so that it displays
-    circle.style.width ="20px";
+    circle.style.position = "absolute"; // the circle will display relative to the position of it's parent i.e the body
+    circle.style.height ="40px" ; //giving width and height to the element so that it displays
+    circle.style.width ="40px";
     circle.style.borderRadius = "50%"; // making a circle out of the div
     circle.style.backgroundColor = randomColorGenerator (); // giving it random colors
     
-    //finding the co-ordinates of the click to display div
-
+    //finding the co-ordinates of the click to display div where the mouse clicks
     circle.style.left = e.clientX + "px";
     circle.style.top = e.clientY + "px";
     
     bodyVar.appendChild(circle);
+    
+    // making it disappear in 1sec
+    setTimeout(() => { circle.remove();}, 1000);
 
 });
 
