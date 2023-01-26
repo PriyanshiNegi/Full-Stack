@@ -70,7 +70,7 @@ main div button{
 .hero{
     background-color: #f6f8fa;
 }
-.hero h1{
+.hero>h1{
     padding-top: 120px;
     font-size: 3em;
     font-weight: 600;
@@ -79,13 +79,14 @@ main div button{
 }
 .cards{
     padding-left: 200px;
+    padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 380px 380px 380px;
     grid-template-rows: 420px 420px 420px;
     justify-items: center;
 }
 .cards div img{
-    width:310px;
+    width:330px;
     height:340px;
     border-radius: 25px;
 }
@@ -102,6 +103,64 @@ main div button{
     width: 90%;
 }
 .carddetails button{
+    background-color: #6663e9;
+    border: none;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+/* Details Section after Cards */
+.details{
+    display: flex;
+    padding: 0 10%;
+    justify-content: center;
+}
+
+.imagesectionone img{
+    width:500px;
+    height:500px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 3;
+}
+.imagesectiontwo img{
+    width:500px;
+    height:500px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 3;
+}
+.whitebox{
+    background-color:#fcfaf9; 
+    height:385px;
+    width :380px;
+    border-radius: 30px;
+    position: relative;
+    top:145px;
+    right :35px;
+    z-index: 2;
+}
+.bluebox{
+    background-color:#6663e9; 
+    height:430px;
+    width :680px;
+    border-radius: 30px;
+    position: relative;
+    bottom :250px;
+    right : 180px;
+    z-index: 1;
+}
+.details h1{
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 4rem;
+}
+.details p{
+    padding-bottom: 20px;
+}
+.details button{
     background-color: #6663e9;
     border: none;
     width: 130px;
