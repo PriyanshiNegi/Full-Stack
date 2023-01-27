@@ -1,4 +1,5 @@
 body{
+    background-color: #f6f8fa;
     font-family:"Poppins";
 }
 /* Main Section */
@@ -79,7 +80,7 @@ main div button{
 }
 .cards{
     padding-left: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     display: grid;
     grid-template-columns: 380px 380px 380px;
     grid-template-rows: 420px 420px 420px;
@@ -125,14 +126,8 @@ main div button{
     position: absolute;
     z-index: 3;
 }
-.imagesectiontwo img{
-    width:500px;
-    height:500px;
-    border-radius: 30px;
-    position: absolute;
-    z-index: 3;
-}
-.whitebox{
+
+.whiteboxone{
     background-color:#fcfaf9; 
     height:385px;
     width :380px;
@@ -142,7 +137,7 @@ main div button{
     right :35px;
     z-index: 2;
 }
-.bluebox{
+.blueboxone{
     background-color:#6663e9; 
     height:430px;
     width :680px;
@@ -150,6 +145,34 @@ main div button{
     position: relative;
     bottom :250px;
     right : 180px;
+    z-index: 1;
+}
+.imagesectiontwo img{
+    width:500px;
+    height:500px;
+    border-radius: 30px;
+    position: absolute;
+    left:55%;
+    z-index: 3;
+}
+.whiteboxtwo{
+    background-color:#fcfaf9; 
+    height:385px;
+    width :350px;
+    border-radius: 30px;
+    position: relative;
+    top:145px;
+    left : 50%;
+    z-index: 2;
+}
+.blueboxtwo{
+    background-color:#6663e9; 
+    height:430px;
+    width :680px;
+    border-radius: 0 0 0 30px;
+    position: relative;
+    bottom :250px;
+    left : 155px;
     z-index: 1;
 }
 .details h1{
@@ -168,4 +191,87 @@ main div button{
     color: #fff;
     border-radius: 20px;
     margin-bottom: 20px;
+}
+/* Subscribe Section */
+.subscribe{
+    background-color: #6663e9;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    padding :60px 0;
+    margin: 0 70px;
+}
+.subscribe h1{
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 4rem;
+}
+.subscribe p{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.subscribe input{
+    background-color: #5856c6;
+    border: none;
+    border-radius: 25px;
+    width:30%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+}
+/* Makes the text of the placeholder that says "Enter Email" colored */
+::placeholder{
+    color: rgb(231, 222, 222);
+}
+.subscribe img{
+    position: relative;
+    left:50px;
+    top:10px;
+}
+.subscribe button{
+    border: none;
+    width: 130px;
+    height: 50px;
+    color: #6663e9;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+}
+/* Footer */
+footer{
+    padding:80px 8%;
+    color: #101010;
+    display: flex;
+}
+footer>div{
+    width: 50%;
+}
+footer div p{
+    width:45%;
+}
+footer div img{
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.footerdetails{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.footerdetails ul{
+    list-style: none;
+}
+.footerdetails ul li{
+    padding: 10px 0;
+    font-size: 16px;
+}
+.footerdetails ul li:first-child{
+    color: #0f0f0f;
+    font-weight: bold;
+}
+a{
+    color: #c0bdbd;
+    text-decoration: none;
 }
