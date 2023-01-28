@@ -9,4 +9,4 @@
 ## Expected Output :
 <br>
 
-![Landing Page Output](output.png)
+![Landing Page Output](./Output.png)
