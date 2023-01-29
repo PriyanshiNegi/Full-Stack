@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question 29</title>
     <script>
-        const filename = prompt ("Enter file name");
-        
+        // const filename = prompt ("Enter file name");
+        function getFileExtension(filename) {
+            var fileExtension = filename.split('.').pop();//name split from "." character and the last word i.e extension is popped.
+            console.log(fileExtension);
+        }
+
+        getFileExtension("priyanshi.txt"); 
     </script>
 </head>
 <body>
