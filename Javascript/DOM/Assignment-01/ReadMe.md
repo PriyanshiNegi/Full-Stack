@@ -1,4 +1,4 @@
-# Task 1 : Update the list section for Header
+# Task 1 : Update the list section for Header and Footer
 
 ## Expected output
 
@@ -28,3 +28,10 @@ const logo = document.querySelector('footer>ul'); //selecting the list from foot
 footer.removeChild(logo); // removing the list from footer
 
 ```
+# Task 2 : Update the placeholder text in Search Bar
+
+## Expected output
+
+![Expected Output](./firstAssignmentImage/task2Output.png)
+
+## Related Code
