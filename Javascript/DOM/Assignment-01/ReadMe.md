@@ -20,3 +20,11 @@ Updating list item 'Contact' to 'Projects' :
 ```
 
 ```
+Removing the list with logos from 'footer' :
+
+```
+const footer = document.querySelector('footer'); //seletcting the entire footer
+const logo = document.querySelector('footer>ul'); //selecting the list from footer
+footer.removeChild(logo); // removing the list from footer
+
+```
