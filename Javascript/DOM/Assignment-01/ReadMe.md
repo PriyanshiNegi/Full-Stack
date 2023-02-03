@@ -50,7 +50,7 @@ input.placeholder = 'Search My Project' //updating the placeholder value
 
 ```
 
-# Task 3 : Update the placeholder text in Search Bar to original
+# Task 3 : Update description and change placeholder text in Search Bar to original
 
 ## Expected output
 
@@ -61,6 +61,21 @@ input.placeholder = 'Search My Project' //updating the placeholder value
 Updating the text in Search Bar placeholder to original :
 
 ```
-input.placeholder = 'Search' //updating the placeholder value
+input.placeholder = 'Search'; //updating the placeholder value
 
+```
+
+```
+const para = document.querySelector('.hero-left-section>p');//selecting the paragraph
+para.children; // this is just to visualise the contents in the para not needed will show data for the tags like this: HTMLCollection(5) [span, br, span, br, span]
+<!-- 0: span
+1: br
+2: span
+3: br
+4: span -->
+
+//selecting the appropriate child from the para to update
+para.children[2].innerText = 'an Employee';
+para.children[4].innerText = 'iNeuron Intelligence Pvt Ltd.'
+'iNeuron Intelligence Pvt Ltd'
 ```
