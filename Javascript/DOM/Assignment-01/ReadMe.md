@@ -35,3 +35,32 @@ footer.removeChild(logo); // removing the list from footer
 ![Expected Output](./firstAssignmentImage/task2Output.png)
 
 ## Related Code
+
+Hidding 'Hire Me' list item :
+
+```
+li.style.display = "none";
+
+```
+Updating the text in Search Bar placeholder :
+
+```
+const input = document.querySelector('input');//selecting input tag
+input.placeholder = 'Search My Project' //updating the placeholder value
+
+```
+
+# Task 3 : Update the placeholder text in Search Bar to original
+
+## Expected output
+
+![Expected Output](./firstAssignmentImage/task3Output.png)
+
+## Related Code
+
+Updating the text in Search Bar placeholder to original :
+
+```
+input.placeholder = 'Search' //updating the placeholder value
+
+```
