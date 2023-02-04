@@ -2,7 +2,7 @@
 
 ## Expected output
 
-![Expected Output](./Expected%20Output-01/task1Output.png)
+![Expected Output](./firstAssignmentImage/task1Output.png)
 
 ## Related Code
 
@@ -31,7 +31,8 @@ footer.removeChild(logo); // removing the list from footer
 
 ## Expected output
 
-![Expected Output](./Expected%20Output-01/task2Output.png)
+![Expected Output](./firstAssignmentImage/task2Output.png)
+
 ## Related Code
 
 Hidding 'Hire Me' list item :
@@ -50,7 +51,7 @@ input.placeholder = 'Search My Project' //updating the placeholder value
 
 ## Expected output
 
-![Expected Output](./Expected%20Output-01/task3Output.png)
+![Expected Output](./firstAssignmentImage/task3Output.png)
 
 ## Related Code
 
@@ -80,7 +81,7 @@ para.children[4].innerText = 'iNeuron Intelligence Pvt Ltd.'
 
 ## Expected output
 
-![Expected Output](./Expected%20Output-01/task4Output.png)
+![Expected Output](./firstAssignmentImage/task4Output.png)
 
 
 ## Related Code
@@ -94,7 +95,7 @@ image.src = "./Avatar.jpg"
 
 ## Expected output
 
-![Expected Output](./Expected%20Output-01/task5Output.png)
+![Expected Output](./firstAssignmentImage/task5Output.png)
 
 
 ## Related Code
