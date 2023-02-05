@@ -100,5 +100,8 @@ image.src = "./Avatar.jpg"
 ## Related Code
 
 ```
-const buttons = document.querySelector('hero-right-section-btns');
+const button = document.createElement('button');//creating the button
+button.innerText= 'Support Me';//adding text for button
+const buttonsection = document.querySelector('hero-right-section-btns');//selecting the section to add button
+buttonsection.appendChild(button);//adding the button to section
 ```
