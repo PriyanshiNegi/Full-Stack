@@ -1,4 +1,4 @@
-# Task : 
+# Task : Changing color of text and for the stats block 
 
 ## Expected output
 
