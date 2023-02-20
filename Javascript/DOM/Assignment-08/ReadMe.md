@@ -40,7 +40,10 @@ backgroundImage.style.background= "none";//removing the background
 ## Related Code
 
 ```
-const nav_button = document.querySelector('.navbar-toggler-icon');
-
+let navBar = document.querySelector(".navbar-toggler");//selecting navbar
+navBar.addEventListener('click' , function(){//giving On-Click functionality 
+  document.querySelector("#navbarTogglerDemo01").classList.toggle("collapse");
+})
+<!-- .classList.remove('collapse') will also work -->
 ```
 
