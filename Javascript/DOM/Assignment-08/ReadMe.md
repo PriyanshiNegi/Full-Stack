@@ -30,7 +30,7 @@ let backgroundImage = document.querySelector("body");//selecting body
 backgroundImage.style.background= "none";//removing the background
 ```
 
-# Task 3 : 
+# Task 3 : Display contents of Navbar
 
 
 ## Expected output
