@@ -1,4 +1,4 @@
-# Task 1 : 
+# Task 1 : Make the Right Block Scrollable
 
 
 ## Expected output
@@ -8,8 +8,15 @@
 ## Related Code
 
 ```
+const block = document.querySelector('.col-lg-4');//selecting element block
+block.style.border = "solid 2px red";//giving it a border
+block.style.overflow = 'scroll';//making it scrollable
+<!-- scroll will make it scrollable both vertically and horizontally 
+overflow-y: scroll makes it appear only veritically
+auto value will only make the scroll bar appear if the content can be scrolled if it fits perfectly it will not be visible -->
 ```
-# Task 2 : 
+
+# Task 2 : Changing the background
 
 
 ## Expected output
@@ -19,7 +26,10 @@
 ## Related Code
 
 ```
+let backgroundImage = document.querySelector("body");//selecting body
+backgroundImage.style.background= "none";//removing the background
 ```
+
 # Task 3 : 
 
 
@@ -30,4 +40,7 @@
 ## Related Code
 
 ```
+const nav_button = document.querySelector('.navbar-toggler-icon');
+
 ```
+
